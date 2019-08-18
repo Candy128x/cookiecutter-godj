@@ -1,0 +1,4 @@
+Name: {{cookiecutter.full_name}}
+Email: {{cookiecutter.email}}
+Config: {{cookiecutter.config}}
+
