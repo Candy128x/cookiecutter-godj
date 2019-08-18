@@ -179,31 +179,35 @@ to
 
 
 - => ls
+```
   (venv) ashish@ashish-Vostro-3478:demoproj$ ls
   demoproj  manage.py
-
+```
 
 - => mv demoproj/ {{cookiecutter.repo_name}}/
-  (venv) ashish@ashish-Vostro-3478:demoproj$ mv demoproj/ {{cookiecutter.repo_name}}/
-
+```
+(venv) ashish@ashish-Vostro-3478:demoproj$ mv demoproj/ {{cookiecutter.repo_name}}/
+```
 
 - => ls
-  (venv) ashish@ashish-Vostro-3478:demoproj$ ls
-  {{cookiecutter.repo_name}}  manage.py
-  (venv) ashish@ashish-Vostro-3478:demoproj$ cd ..
-  (venv) ashish@ashish-Vostro-3478:template2$ mv demoproj/ {{cookiecutter.repo_name}}/
-  (venv) ashish@ashish-Vostro-3478:template2$ ls
-  cookiecutter.json  {{cookiecutter.repo_name}}
-
+```
+(venv) ashish@ashish-Vostro-3478:demoproj$ ls
+{{cookiecutter.repo_name}}  manage.py
+(venv) ashish@ashish-Vostro-3478:demoproj$ cd ..
+(venv) ashish@ashish-Vostro-3478:template2$ mv demoproj/ {{cookiecutter.repo_name}}/
+(venv) ashish@ashish-Vostro-3478:template2$ ls
+cookiecutter.json  {{cookiecutter.repo_name}}
+```
 
 - => Run `template2`
-  (venv) ashish@ashish-Vostro-3478:cookiecutter-godj$ cookiecutter template2
-  project_name [project_name is the title of the project.]: My Awesome app
-  repo_name [repo_name is used for describing the directory structure.]: milldolide
-  author_name [Ashish Developer]: Ashish
-  email [Ashish Sondagar]: sondagarashish@gm.com
-  description [A short description of the project.]: Million dollar project to make one million dollars
-
+```
+(venv) ashish@ashish-Vostro-3478:cookiecutter-godj$ cookiecutter template2
+project_name [project_name is the title of the project.]: My Awesome app
+repo_name [repo_name is used for describing the directory structure.]: milldolide
+author_name [Ashish Developer]: Ashish
+email [Ashish Sondagar]: sondagarashish@gm.com
+description [A short description of the project.]: Million dollar project to make one million dollars
+```
 
   (venv) ashish@ashish-Vostro-3478:cookiecutter-godj$ ls
   br  gitPushU.bash  milldolide  myapp  NoteCommands.md  Notes3.md  template1  template2
