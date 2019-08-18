@@ -153,3 +153,9 @@ config [wasup]: I am a config variable
   "description": "A short description of the project."
 }
 ```
+
+
+---
+### Create dj project inside template2
+
+- => django-admin.py startproject demoproj
