@@ -179,21 +179,21 @@ to
 
 
 - => ls
-(venv) ashish@ashish-Vostro-3478:demoproj$ ls
-demoproj  manage.py
+  (venv) ashish@ashish-Vostro-3478:demoproj$ ls
+  demoproj  manage.py
 
 
 - => mv demoproj/ {{cookiecutter.repo_name}}/
-(venv) ashish@ashish-Vostro-3478:demoproj$ mv demoproj/ {{cookiecutter.repo_name}}/
+  (venv) ashish@ashish-Vostro-3478:demoproj$ mv demoproj/ {{cookiecutter.repo_name}}/
 
 
 - => ls
-(venv) ashish@ashish-Vostro-3478:demoproj$ ls
-{{cookiecutter.repo_name}}  manage.py
-(venv) ashish@ashish-Vostro-3478:demoproj$ cd ..
-(venv) ashish@ashish-Vostro-3478:template2$ mv demoproj/ {{cookiecutter.repo_name}}/
-(venv) ashish@ashish-Vostro-3478:template2$ ls
-cookiecutter.json  {{cookiecutter.repo_name}}
+  (venv) ashish@ashish-Vostro-3478:demoproj$ ls
+  {{cookiecutter.repo_name}}  manage.py
+  (venv) ashish@ashish-Vostro-3478:demoproj$ cd ..
+  (venv) ashish@ashish-Vostro-3478:template2$ mv demoproj/ {{cookiecutter.repo_name}}/
+  (venv) ashish@ashish-Vostro-3478:template2$ ls
+  cookiecutter.json  {{cookiecutter.repo_name}}
 
 
 - => Run `template2`
