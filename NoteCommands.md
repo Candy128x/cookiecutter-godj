@@ -134,3 +134,22 @@ full_name [Ashish Developer]:
 email [ashishsondagar@g.com]: 
 config [wasup]: I am a config variable
 ```
+
+
+---
+## Create template2 dir
+
+- => mkdir template2
+- => cd template2/
+
+- => vim cookiecutter.json
+- add:
+```
+{
+  "project_name": "project_name is the title of the project.",
+  "repo_name": "repo_name is used for describing the directory structure.",
+  "author_name": "Ashish Developer",
+  "email": "Ashish Sondagar",
+  "description": "A short description of the project."
+}
+```

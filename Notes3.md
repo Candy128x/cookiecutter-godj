@@ -10,8 +10,8 @@
 
 
 ---
-- @ref: cookiecutter
->https://swapps.com/blog/how-to-create-a-django-application-using-cookiecutter/
+- @ref: cookiecutter-godj
+>https://www.youtube.com/watch?v=5VjuG5lliYU
 
 
 ---
