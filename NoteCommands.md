@@ -197,22 +197,22 @@ cookiecutter.json  {{cookiecutter.repo_name}}
 
 
 - => Run `template2`
-(venv) ashish@ashish-Vostro-3478:cookiecutter-godj$ cookiecutter template2
-project_name [project_name is the title of the project.]: My Awesome app
-repo_name [repo_name is used for describing the directory structure.]: milldolide
-author_name [Ashish Developer]: Ashish
-email [Ashish Sondagar]: sondagarashish@gm.com
-description [A short description of the project.]: Million dollar project to make one million dollars
+  (venv) ashish@ashish-Vostro-3478:cookiecutter-godj$ cookiecutter template2
+  project_name [project_name is the title of the project.]: My Awesome app
+  repo_name [repo_name is used for describing the directory structure.]: milldolide
+  author_name [Ashish Developer]: Ashish
+  email [Ashish Sondagar]: sondagarashish@gm.com
+  description [A short description of the project.]: Million dollar project to make one million dollars
 
 
-(venv) ashish@ashish-Vostro-3478:cookiecutter-godj$ ls
-br  gitPushU.bash  milldolide  myapp  NoteCommands.md  Notes3.md  template1  template2
+  (venv) ashish@ashish-Vostro-3478:cookiecutter-godj$ ls
+  br  gitPushU.bash  milldolide  myapp  NoteCommands.md  Notes3.md  template1  template2
 
 
-(venv) ashish@ashish-Vostro-3478:cookiecutter-godj$ cd milldolide/
+  (venv) ashish@ashish-Vostro-3478:cookiecutter-godj$ cd milldolide/
 
-(venv) ashish@ashish-Vostro-3478:milldolide$ ls
-manage.py  milldolide
+  (venv) ashish@ashish-Vostro-3478:milldolide$ ls
+  manage.py  milldolide
 
 
 - => python3 manage.py runserver
